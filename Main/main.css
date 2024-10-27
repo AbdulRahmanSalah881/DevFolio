@@ -1,0 +1,631 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* First page  */
+.Nevbar {
+    position: fixed;
+    z-index: 1000;
+    color: #CDE1F8;
+    scroll-behavior: smooth;
+
+}
+
+
+
+.Nevbar .line::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #0062D3;
+    color: #0062D3;
+    position: absolute;
+    top: 89%;
+    left: 30%;
+    padding-left: 3px;
+
+}
+
+.MorganFreeman {
+
+    background-image: url(../image/image01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    position: relative;
+}
+
+.underline::after {
+    content: "";
+    background-color: white;
+    width: 95%;
+    height: 3px;
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    transition: 0.5s;
+    transform: translateX(-500%);
+}
+
+.MorganFreeman .container {
+
+    color: aliceblue;
+
+}
+
+.MorganFreeman .layer {
+
+    background-color: #000000a5;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+.nav-item {
+
+    overflow: hidden;
+
+}
+
+
+
+.ahmed a:hover::after {
+    transform: translateX(0%);
+}
+
+
+.MorganFreeman .Text_center {
+
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    text-align: center;
+}
+
+.undderlinee::after {
+    content: "";
+    background-color: #0062D3;
+    width: 100px;
+    height: 5px;
+    color: #0062D3;
+    position: absolute;
+    top: 105%;
+    left: 0%;
+
+}
+
+.underabout {
+    position: relative;
+}
+
+/* Title section */
+
+.Title {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.Title .bottom::after {
+
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 2%;
+    background-color: #0078FF;
+    left: 47%;
+
+}
+
+.Services .myservies {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: #0078FF solid 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.circle:hover {
+
+    background-color: #0078FF;
+    border: #CDE1F8 solid 10px;
+
+}
+
+.Number {
+    background-image: url(../image/image03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.Number .layer {
+    background-color: #0559b8c3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.circle-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: #CDE1F8 solid 10px;
+    background-color: #0559b8bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.my-number {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.circle-3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #0078FF solid 5px;
+    background-color: #ffffffbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #0078FF;
+}
+
+.Portfolio .card .inner {
+    overflow: hidden;
+}
+
+.Portfolio .card img:hover {
+    scale: 1.4;
+}
+
+.Portfolio .card img {
+    transition: 0.5s;
+}
+
+.Shadow {
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.496);
+}
+
+
+.Scrol {
+    background-image: url(../image/image10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+
+}
+.carousel-indicators [data-bs-target]{
+width: 12px;
+height: 12px;
+border-radius: 50%;
+
+}
+
+.move{
+    position: absolute;
+  top: 100%;
+}
+
+.Scrol .layer {
+    background-color: #0559b8db;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.button_circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: white;
+}
+
+.blog .myblog .circle-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    background-color: aqua;
+}
+
+.blog .inner {
+    position: relative;
+
+}
+
+.blog .inner .inner-blue-web {
+    position: absolute;
+    background-color: #0078FF;
+    width: 90px;
+    height: 30px;
+    top: 95%;
+    left: 38%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+
+}
+
+.blog img::after {
+    contain: "web";
+    width: 100px;
+    height: 100px;
+    background-color: #0078FF;
+    position: absolute;
+
+
+}
+
+.blog .myblog h5:hover {
+    color: #0078FF;
+
+
+}
+
+.Scrol-2 {
+    background-image: url(../image/image10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.Scrol-2 .layer {
+    background-color: #0559b8c3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.circle-last {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #0078FF solid 5px;
+    background-color: #ffffffbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.circle-last:hover {
+    background-color: #0078FF;
+    border: #0077ff7a solid 5px;
+    color: white;
+}
+
+.Scrol-2 .myinner {
+    margin-top: 80px;
+
+}
+
+.button-send {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #0078FF;
+    color: #ffffff;
+}
+
+.underline-1 {
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 62%;
+    left: 0%;
+    background-color: #0078FF;
+}
+
+.underline-2 {
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 99%;
+    left: 0%;
+    background-color: #0078FF;
+}
+
+.container-end {
+    position: relative;
+}
+
+.last {
+
+    background-color: #0062D3;
+    width: 100%;
+    height: 20%;
+    top: 85%;
+    color: #ffffff;
+}
+
+.Test {
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: initial;
+}
+
+.Test::after {
+    content: "";
+    animation: typing 7s linear infinite;
+    font-size: 45px;
+}
+
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    3.125% {
+        content: "D";
+    }
+
+    6.25% {
+        content: "De |";
+    }
+
+    9.375% {
+        content: "Des |";
+    }
+
+    12.5% {
+        content: "Desi |";
+    }
+
+    15.625% {
+        content: "Desig |";
+    }
+
+    18.75% {
+        content: "Design |";
+    }
+
+    21.875% {
+        content: "Designe |";
+    }
+
+    25% {
+        content: "Designer |";
+    }
+
+    25% {
+        content: "Designer |";
+    }
+
+    28.125% {
+        content: "D |";
+    }
+
+    31.25% {
+        content: "De |";
+    }
+
+    34.375% {
+        content: "Dev |";
+    }
+
+    37.5% {
+        content: "Devo |";
+    }
+
+    40.625% {
+        content: "Devol |";
+    }
+
+    43.75% {
+        content: "Devolp |";
+    }
+
+    46.875% {
+        content: "Devolpe |";
+    }
+
+    50% {
+        content: "Devolper |";
+    }
+
+    50% {
+        content: "Devolper |";
+    }
+
+    52.5% {
+        content: "F |";
+    }
+
+    55% {
+        content: "Fr |";
+    }
+
+    57.5% {
+        content: "Fre |";
+    }
+
+    60% {
+        content: "Free |";
+    }
+
+    62.5% {
+        content: "Freel |";
+    }
+
+    65% {
+        content: "Freela |";
+    }
+
+    67.5% {
+        content: "Freelan |";
+    }
+
+    70% {
+        content: "Freelanc |";
+    }
+
+    72.5% {
+        content: "Freelance |";
+    }
+
+    75% {
+        content: "Freelancer |";
+    }
+
+    75% {
+        content: "Freelancer |";
+    }
+
+    77.27272727272727% {
+        content: "P |";
+    }
+
+    79.54545454545455% {
+        content: "Ph |";
+    }
+
+    81.81818181818181% {
+        content: "Pho |";
+    }
+
+    84.0909090909091% {
+        content: "Phot |";
+    }
+
+    86.36363636363636% {
+        content: "Photo |";
+    }
+
+    88.63636363636364% {
+        content: "Photog |";
+    }
+
+    90.9090909090909% {
+        content: "Photogr |";
+    }
+
+    93.18181818181819% {
+        content: "Photogra |";
+    }
+
+    95.45454545454545% {
+        content: "Photograp |";
+    }
+
+    97.72727272727273% {
+        content: "Photograph |";
+    }
+
+    100% {
+        content: "Photographr |";
+    }
+
+    100% {
+        content: "Photographr |";
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Scrol-2 {
+
+        width: 100%;
+        height: 1400px;
+        top: 80%;
+    }
+
+    .last {
+
+        background-color: #0062D3;
+        width: 100%;
+        height: 20%;
+      
+        top: 85%;
+        color: #ffffff;
+    }
+
+}
+
+@media screen and (max-width:771px) {
+    .Scrol-2 {
+
+        width: 100%;
+        height: 1300px;
+  
+        top: 80%;
+    }
+    .last {
+
+        background-color: #0062D3;
+        width: 100%;
+        height: 20%;
+      
+        color: #ffffff;
+    }
+
+
+}
